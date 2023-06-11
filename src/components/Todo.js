@@ -6,7 +6,7 @@ function Todo() {
   const [message, setMessage] = useState("");
   const [todoList, setTodoList] = useState([]);
 
-  const url = "http://192.168.1.3:3001/todoList";
+  const url = "http://ec2-3-87-186-10.compute-1.amazonaws.com:3001/todoList";
 
   const inputText = (e) => {
     setMessage(e.target.value);
