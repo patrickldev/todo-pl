@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prod": "node server.js",
-    "watchserver": "json-server --watch db.json -H  3.87.186.10 --port 3001",
+    "watchserver": "json-server --watch db.json  --port 3001",
     "dev": "npm-run-all -p prod watchserver"
   },
   "eslintConfig": {
